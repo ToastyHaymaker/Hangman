@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+
+<AnchorPane fx:id="Entry" prefHeight="500" prefWidth="600" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+   <children>
+      <TextField layoutX="112.0" layoutY="364.0" promptText="Guess" />
+      <Text layoutX="186.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hangman" textAlignment="CENTER" wrappingWidth="227.13671875">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="221.0" fitWidth="282.0" layoutX="51.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Noose.png" />
+         </image>
+      </ImageView>
+   </children>
 </AnchorPane>
-
